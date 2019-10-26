@@ -3,7 +3,7 @@ A Lifecycle aware network state change listener library for Android
 Supports SDK
 
 
-[x] SDK >=19
+- [x] SDK >=19
 
 Usage 
 
