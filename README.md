@@ -5,7 +5,23 @@ Supports SDK
 
 - [x] SDK >=19
 
-Usage 
+Dependency
+
+**Gradle**
+
+```
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation 'com.github.SharkFourSix:NetworkState:<ReleaseTag>'
+}
+```
+
+**Usage**
 
 ```java
 import android.os.Bundle;
